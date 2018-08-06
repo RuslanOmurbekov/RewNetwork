@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enters valid chase and hits api (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">status code should be 200 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verifies the vim-ansible-yaml exists and the focuspoint-vim exists (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verifies the chase of repositories (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enters valid asakg and hits api (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">status code should be 200 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user verifies that invalid A17g and invalid bghies do not exist (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enters invalid &lt;&quot;parameter&quot;&gt; and valid &lt;&quot;authorName&quot;&gt; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">status code should be 200 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">no items should be displayed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enters invalid &lt;&quot;parameter&quot;&gt; and valid &lt;&quot;authorName&quot;&gt; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">status code should be 200 (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">no items should be displayed (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5100" started-at="2018-08-06T14:39:33Z" finished-at="2018-08-06T14:39:38Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@27c20538]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="5100" started-at="2018-08-06T14:39:33Z" finished-at="2018-08-06T14:39:38Z">
+      <class name="runners.MainRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.MainRunner@27c20538]" name="setUpClass" is-config="true" duration-ms="133" started-at="2018-08-06T14:39:33Z" finished-at="2018-08-06T14:39:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@27c20538]" name="runScenario" duration-ms="3011" started-at="2018-08-06T14:39:33Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-08-06T14:39:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search repository by author name - Positive scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Search Repository by Author Name - Git Hub Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enters valid chase and hits api (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">status code should be 200 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verifies the vim-ansible-yaml exists and the focuspoint-vim exists (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verifies the chase of repositories (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@27c20538]" name="runScenario" duration-ms="727" started-at="2018-08-06T14:39:36Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-08-06T14:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search repository by author name - Negative scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Search Repository by Author Name - Git Hub Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enters valid asakg and hits api (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">status code should be 200 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user verifies that invalid A17g and invalid bghies do not exist (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@27c20538]" name="runScenario" duration-ms="581" started-at="2018-08-06T14:39:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-08-06T14:39:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search repository by author name - Negative scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Search Repository by Author Name - Git Hub Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enters invalid &lt;&quot;parameter&quot;&gt; and valid &lt;&quot;authorName&quot;&gt; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">status code should be 200 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">no items should be displayed (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.MainRunner@27c20538]" name="runScenario" duration-ms="579" started-at="2018-08-06T14:39:37Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-08-06T14:39:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search repository by author name - Negative scenario"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test Search Repository by Author Name - Git Hub Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enters invalid &lt;&quot;parameter&quot;&gt; and valid &lt;&quot;authorName&quot;&gt; (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">status code should be 200 (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">no items should be displayed (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.MainRunner@27c20538]" name="tearDownClass" is-config="true" duration-ms="14" started-at="2018-08-06T14:39:38Z" finished-at="2018-08-06T14:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.MainRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

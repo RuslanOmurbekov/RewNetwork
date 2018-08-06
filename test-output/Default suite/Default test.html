@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 06 09:39:33 CDT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5100 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runners.MainRunner.runScenario()'><b>runScenario</b><br>Test class: runners.MainRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search repository by author name - Positive scenario", "Test Search Repository by Author Name - Git Hub Functionality"<br/>
+<a href="#Output-1496220730" onClick='toggleBox("Output-1496220730", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1496220730" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1496220730">
+<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div><br/>
+<div "result">user enters valid chase and hits api (PASSED : 2s)</div><br/>
+<div "result">status code should be 200 (PASSED : 0s)</div><br/>
+<div "result">user verifies the vim-ansible-yaml exists and the focuspoint-vim exists (PASSED : 0s)</div><br/>
+<div "result">user verifies the chase of repositories (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>runners.MainRunner@27c20538</td></tr>
+<tr>
+<td title='runners.MainRunner.runScenario()'><b>runScenario</b><br>Test class: runners.MainRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search repository by author name - Negative scenario", "Test Search Repository by Author Name - Git Hub Functionality"<br/>
+<a href="#Output-1293389141" onClick='toggleBox("Output-1293389141", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1293389141" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1293389141">
+<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div><br/>
+<div "result">user enters valid asakg and hits api (PASSED : 0s)</div><br/>
+<div "result">status code should be 200 (PASSED : 0s)</div><br/>
+<div "result">user verifies that invalid A17g and invalid bghies do not exist (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runners.MainRunner@27c20538</td></tr>
+<tr>
+<td title='runners.MainRunner.runScenario()'><b>runScenario</b><br>Test class: runners.MainRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search repository by author name - Negative scenario", "Test Search Repository by Author Name - Git Hub Functionality"<br/>
+<a href="#Output-273041802" onClick='toggleBox("Output-273041802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-273041802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-273041802">
+<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div><br/>
+<div "result">user enters invalid &lt;&quot;parameter&quot;&gt; and valid &lt;&quot;authorName&quot;&gt; (PASSED : 0s)</div><br/>
+<div "result">status code should be 200 (PASSED : 0s)</div><br/>
+<div "result">no items should be displayed (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runners.MainRunner@27c20538</td></tr>
+<tr>
+<td title='runners.MainRunner.runScenario()'><b>runScenario</b><br>Test class: runners.MainRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search repository by author name - Negative scenario", "Test Search Repository by Author Name - Git Hub Functionality"<br/>
+<a href="#Output-1056953587" onClick='toggleBox("Output-1056953587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1056953587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1056953587">
+<div "result">ContentType and AcceptType is Json (PASSED : 0s)</div><br/>
+<div "result">user enters invalid &lt;&quot;parameter&quot;&gt; and valid &lt;&quot;authorName&quot;&gt; (PASSED : 0s)</div><br/>
+<div "result">status code should be 200 (PASSED : 0s)</div><br/>
+<div "result">no items should be displayed (PASSED : 0s)</div><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>runners.MainRunner@27c20538</td></tr>
+</table><p>
+</body>
+</html>
